@@ -2,7 +2,7 @@
 Human Voice Cloner Generative Network
 
 ![training process](./gen/spectrograms_epoch.gif "training")   
-
+![training process random](./gen/spectrograms_epoch2.gif "training2") 
 
 Requirements
 ---
