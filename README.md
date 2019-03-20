@@ -3,7 +3,7 @@ Human Voice Cloner Generative Network
 
 ![training process](./gen/spectrograms_epoch.gif "training")   
 
-Idea: http://arxiv.org/abs/1802.04208
+
 Requirements
 ---
 - keras >= 2.1
@@ -11,7 +11,6 @@ Requirements
 - librosa
 - imutils
 - Python 3
-
 
 
 
@@ -24,9 +23,7 @@ Preprocess
 
 
 Training
----
-
-Then, start training using the created training data!    
+--- 
 
 
 
