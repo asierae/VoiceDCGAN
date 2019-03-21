@@ -1,7 +1,7 @@
 # VoiceDCGAN
 Human Voice Cloner Generative Network
 
-![training process](./gen/spectrograms_epoch.gif "training")![training process random](./gen/spectrograms_epoch2.gif "training2") 
+![training process](./gen/spectrograms_epoch.gif "training")
 
 
 Requirements
@@ -16,20 +16,21 @@ Requirements
 
 Dataset
 --
+Wav File
 
 Preprocess
 ---
-
+Wav --> wav chunks --> spectograms --> mel spectograms --> feed DCGAN
 
 
 Training
 --- 
 
-
+![training process random](./gen/spectrograms_epoch2.gif "training2") 
 
 Generate Sounds
 ---
-
+mel spectograms --> spectograms --> wav file
 
 Result
 ---
